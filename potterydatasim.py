@@ -83,7 +83,7 @@ except sqlite3.Error as e:
 
 # Customer details
 num_customers   = 84
-customer_data   = [(i, fake.name(), fake.state())
+customer_data   = [(i, fake.name(), np.random.choice([fake.state(), 'North Carolina', 'North Carolina']))
                     for i in range(1, num_customers+1)]
 try:
     cursor.executemany('INSERT INTO Customers VALUES (?, ?, ?)', customer_data)
