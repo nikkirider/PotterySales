@@ -83,7 +83,7 @@ except sqlite3.Error as e:
 
 # Customer details
 num_customers   = 84
-customer_data   = [(i, fake.name(), np.random.choice([fake.state(), 'North Carolina', 'North Carolina']))
+customer_data   = [(i, fake.name(), np.random.choice([fake.state(), 'North Carolina', 'North Carolina'])) #Higher chance for sales in home state
                     for i in range(1, num_customers+1)]
 try:
     cursor.executemany('INSERT INTO Customers VALUES (?, ?, ?)', customer_data)
@@ -99,7 +99,7 @@ for i in range(1, numtransactions+1):
         # Use each customer at least once for the first 84 transactions
         customer_id = i
     else:
-        # For transactions 85-100, randomly select from the existing customer IDs
+        # For transactions 85-100, randomly select from the existing customer IDs, allows repeat customers
         customer_id = np.random.randint(1,num_customers+1)
     num_prod_purchased = np.random.choice([1,2,3])
     # ItemsPurchased details
@@ -111,7 +111,7 @@ for i in range(1, numtransactions+1):
     except sqlite3.Error as e:
         print(f"An error occurred inserting values into PurchaseItems table: {e}")
     total_price = np.sum([item[2] for item in purchaseitems_data])
-    month =  str(np.random.randint(1, 13)).zfill(2)
+    month = 12 if np.random.rand() > 0.6 else str(np.random.randint(1, 13)).zfill(2) #Higher chance for December orders, simulate holiday sales
     day   = str(np.random.randint(1, 28)).zfill(2)
     year  = "2023"
     date  = f"{year}-{month}-{day}"
