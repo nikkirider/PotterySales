@@ -1,0 +1,55 @@
+ProductID,Name,Type,Size,Glaze,Price
+1,"Vase Sangria Small",Vase,Small,Sangria,20.99
+2,"Vase Autumn Purple Small",Vase,Small,"Autumn Purple",20.99
+3,"Vase Kimchi Small",Vase,Small,Kimchi,20.99
+4,"Vase Cactus Small",Vase,Small,Cactus,20.99
+5,"Vase Glacier Small",Vase,Small,Glacier,20.99
+6,"Vase Pearl White Small",Vase,Small,"Pearl White",20.99
+7,"Vase Sangria Medium",Vase,Medium,Sangria,30.99
+8,"Vase Autumn Purple Medium",Vase,Medium,"Autumn Purple",30.99
+9,"Vase Kimchi Medium",Vase,Medium,Kimchi,30.99
+10,"Vase Cactus Medium",Vase,Medium,Cactus,30.99
+11,"Vase Glacier Medium",Vase,Medium,Glacier,30.99
+12,"Vase Pearl White Medium",Vase,Medium,"Pearl White",30.99
+13,"Vase Sangria Large",Vase,Large,Sangria,40.99
+14,"Vase Autumn Purple Large",Vase,Large,"Autumn Purple",40.99
+15,"Vase Kimchi Large",Vase,Large,Kimchi,40.99
+16,"Vase Cactus Large",Vase,Large,Cactus,40.99
+17,"Vase Glacier Large",Vase,Large,Glacier,40.99
+18,"Vase Pearl White Large",Vase,Large,"Pearl White",40.99
+19,"Mug Sangria Small",Mug,Small,Sangria,6.99
+20,"Mug Autumn Purple Small",Mug,Small,"Autumn Purple",6.99
+21,"Mug Kimchi Small",Mug,Small,Kimchi,6.99
+22,"Mug Cactus Small",Mug,Small,Cactus,6.99
+23,"Mug Glacier Small",Mug,Small,Glacier,6.99
+24,"Mug Pearl White Small",Mug,Small,"Pearl White",6.99
+25,"Mug Sangria Medium",Mug,Medium,Sangria,9.99
+26,"Mug Autumn Purple Medium",Mug,Medium,"Autumn Purple",9.99
+27,"Mug Kimchi Medium",Mug,Medium,Kimchi,9.99
+28,"Mug Cactus Medium",Mug,Medium,Cactus,9.99
+29,"Mug Glacier Medium",Mug,Medium,Glacier,9.99
+30,"Mug Pearl White Medium",Mug,Medium,"Pearl White",9.99
+31,"Mug Sangria Large",Mug,Large,Sangria,12.99
+32,"Mug Autumn Purple Large",Mug,Large,"Autumn Purple",12.99
+33,"Mug Kimchi Large",Mug,Large,Kimchi,12.99
+34,"Mug Cactus Large",Mug,Large,Cactus,12.99
+35,"Mug Glacier Large",Mug,Large,Glacier,12.99
+36,"Mug Pearl White Large",Mug,Large,"Pearl White",12.99
+37,"Bowl Sangria Small",Bowl,Small,Sangria,12.99
+38,"Bowl Autumn Purple Small",Bowl,Small,"Autumn Purple",12.99
+39,"Bowl Kimchi Small",Bowl,Small,Kimchi,12.99
+40,"Bowl Cactus Small",Bowl,Small,Cactus,12.99
+41,"Bowl Glacier Small",Bowl,Small,Glacier,12.99
+42,"Bowl Pearl White Small",Bowl,Small,"Pearl White",12.99
+43,"Bowl Sangria Medium",Bowl,Medium,Sangria,15.99
+44,"Bowl Autumn Purple Medium",Bowl,Medium,"Autumn Purple",15.99
+45,"Bowl Kimchi Medium",Bowl,Medium,Kimchi,15.99
+46,"Bowl Cactus Medium",Bowl,Medium,Cactus,15.99
+47,"Bowl Glacier Medium",Bowl,Medium,Glacier,15.99
+48,"Bowl Pearl White Medium",Bowl,Medium,"Pearl White",15.99
+49,"Bowl Sangria Large",Bowl,Large,Sangria,18.99
+50,"Bowl Autumn Purple Large",Bowl,Large,"Autumn Purple",18.99
+51,"Bowl Kimchi Large",Bowl,Large,Kimchi,18.99
+52,"Bowl Cactus Large",Bowl,Large,Cactus,18.99
+53,"Bowl Glacier Large",Bowl,Large,Glacier,18.99
+54,"Bowl Pearl White Large",Bowl,Large,"Pearl White",18.99
